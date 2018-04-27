@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "565199933831",
+    "firebase_url": "https://connect-b15ed.firebaseio.com",
+    "project_id": "connect-b15ed",
+    "storage_bucket": "connect-b15ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565199933831:android:032cd7f9d2b74aa4",
+        "android_client_info": {
+          "package_name": "com.example.kisanthapa.connect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565199933831-78rijpi3pku4b013615ueuos4inf826k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kisanthapa.connect",
+            "certificate_hash": "36b7848dbcc7d4a7d804b39cf2a6b3609aa833c3"
+          }
+        },
+        {
+          "client_id": "565199933831-mo3h73fik1574k2j6vg5af7hvt4o451f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-FjbXvmJyQ2olpIU277QU86F1sZA7V_I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565199933831-mo3h73fik1574k2j6vg5af7hvt4o451f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

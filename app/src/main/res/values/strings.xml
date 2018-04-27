@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Connect</string>
+    <string name="start_reg_btn_text">NEED AN ACCOUNT?</string>
+    <string name="create_accout">Create  Account</string>
+    <string name="display_name">Display Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="log_out">Log Out</string>
+    <string name="about_us">About Us</string>
+    <string name="create_a_new_account">Create a New Account</string>
+    <string name="sign_in">Sign In</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Chats Fragment</string>
+    <string name="my_profile">My Profile</string>
+    <string name="default_status">Default Status</string>
+    <string name="change_status">Change Status</string>
+    <string name="change_dp">Change DP</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="all_users">All Users</string>
+    <string name="total_friends">Total Friends</string>
+    <string name="send_friend_request">Send Friend Request</string>
+    <string name="decline_friend_request">Decline Friend Request</string>
+    <string name="last_seen">Last Seen</string>
+    <string name="enter_message">Enter Message...</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="accept">Accept</string>
+    <string name="v_1_0">V 1.0</string>
+    <string name="connect_a_chat_app">Connect</string>
+</resources>

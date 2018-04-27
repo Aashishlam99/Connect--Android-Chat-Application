@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Delete Conversation"
+        android:id="@+id/chat_delete_conversation"/>
+    <item android:title="View Profile"
+        android:id="@+id/chat_view_profile"/>
+</menu>

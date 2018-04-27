@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Friend_Req_Layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="visible">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/friend_request_image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/default_avatar"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/friend_request_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/req_accept_btn"
+        android:layout_alignTop="@+id/friend_request_image"
+        android:text="@string/display_name"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/req_accept_btn"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/friend_request_image"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/friend_request_image"
+        android:background="@drawable/accept_btn_background"
+        android:padding="1dp"
+        android:text="@string/accept"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/req_reject_btn"
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/friend_request_image"
+        android:layout_marginStart="17dp"
+        android:layout_toEndOf="@+id/req_accept_btn"
+        android:background="@drawable/reject_btn_background"
+        android:text="Decline"
+        android:textColor="@color/colorWhite"
+        tools:ignore="HardcodedText" />
+
+
+</RelativeLayout>

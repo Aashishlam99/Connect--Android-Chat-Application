@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aashish.connect.MyProfileActivity">
+
+    <include
+        android:id="@+id/profileToolbar"
+        layout="@layout/app_bar_layout" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImage"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_below="@+id/profileToolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:soundEffectsEnabled="false"
+        android:src="@drawable/default_avatar" />
+
+    <TextView
+        android:id="@+id/profile_DisplayName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profileImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="35dp"
+        android:gravity="center_horizontal"
+        android:text="@string/display_name"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/profile_Status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_DisplayName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="17dp"
+        android:gravity="center_horizontal"
+        android:text="@string/default_status"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/profile_ChangeDP_btn"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/profile_ChangeStatus_btn"
+        android:layout_alignStart="@+id/profile_ChangeStatus_btn"
+        android:layout_marginBottom="22dp"
+        android:background="@color/colorPrimary"
+        android:paddingLeft="37dp"
+        android:paddingRight="37dp"
+        android:text="@string/change_dp"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/profile_ChangeStatus_btn"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/change_status"
+        android:textColor="@color/colorPrimary" />
+
+</RelativeLayout>
